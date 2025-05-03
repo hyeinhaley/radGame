@@ -65,7 +65,7 @@ function sendXapiStatement(options) {
 class Player {
     constructor() {
         this.baseImage = new Image();
-        this.baseImage.src = "graphics/geiger_easy";
+        this.baseImage.src = "graphics/easyGeiger";
         this.image = this.baseImage;
         this.rect = {
             x: 150,
